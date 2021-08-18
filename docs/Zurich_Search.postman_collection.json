@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "cc8aa44d-3662-4680-a12f-61f766ef2eb9",
+		"name": "Zurich_Search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/search?search_term=pionr",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "search_term",
+							"value": "pionr"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
