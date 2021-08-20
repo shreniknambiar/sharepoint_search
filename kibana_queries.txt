@@ -1,0 +1,28 @@
+//To retrieve all documents
+
+GET documents/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+To search for the documents with "elas"
+
+GET documents/_search
+{
+  "query": {
+    "match": {
+      "name": {
+        "query": "elas"
+      }
+    }
+  }
+}
+
+//To delete the index
+
+DELETE documents
+
+
+The above queries can be implemented in Kibana dev tools (in http://localhost:5601). Please make sure 5601 isn't being used 
