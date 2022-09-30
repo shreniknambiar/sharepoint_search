@@ -18,8 +18,6 @@ var documentRouter = require('./routes/document');
 var searchRouter = require('./routes/search');
 
 var app = express();
-
-// <MsalInitSnippet>
 // In-memory storage of logged-in users
 // For demo purposes only, production apps should store
 // this in a reliable storage
