@@ -11,5 +11,4 @@ COPY . ./
 
 EXPOSE 3000
 EXPOSE 9200
-
 CMD npm start
